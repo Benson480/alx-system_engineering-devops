@@ -1,2 +1,2 @@
-#!/bin/bass
-tail -4 /etc/passwd
+#!/bin/bash
+tail /etc/passwd
