@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# this is debugging the nginx (service (init) it must say that the nginx is not running)
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+service nginx restart
+pkill -o nginx
